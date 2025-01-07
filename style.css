@@ -1,0 +1,126 @@
+body {
+    background-color: white;
+    color: rgb(15, 20, 25);
+
+    font-size: 1.2rem;
+}
+
+.profile-name{
+    color: rgb(15, 20, 25);
+}
+
+.profile-username{
+    color: rgb(83, 100, 113);
+}
+
+.profile-description{
+    color: rgb(15, 20, 25);
+}
+
+.profile-picture {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
+.post-owner{
+    display: flex;
+    gap: 1rem;
+    text-align: end;
+}
+
+.option{
+    font-size: 1.5rem;
+    list-style-type: none;
+    padding: 0.2rem;
+}
+
+.option a{
+    color: rgb(15, 20, 25);
+    text-decoration: none;
+}
+
+.user-data ul {
+    display: flex;
+    color: rgb(83, 100, 113);
+    gap: 1rem;
+}
+
+.user-data ul li {
+    list-style-type: none;
+}
+
+.user-data-info{
+    color: rgb(83, 100, 113);
+    text-decoration: none;
+}
+
+.statistics ul{
+    display: flex;
+    color: rgb(83, 100, 113);
+    gap: 1rem;
+}
+
+.statistics ul li {
+    list-style-type: none;
+}
+
+.statistics-info{
+    color: rgb(83, 100, 113);
+    text-decoration: none;
+}
+
+.statistics-number{
+    color: rgb(15, 20, 25);
+    font-style: bold;
+}
+
+.post a {
+    color: rgb(83, 100, 113);
+    text-decoration: none;
+}
+
+.post p {
+    margin-top: 0;
+    color: rgb(15, 20, 25);
+}
+
+.post-date {
+    color: rgb(83, 100, 113);
+}
+
+.post:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: rgba(15, 25, 20, 0.1);
+    border-radius: 10px;
+}
+
+.statistics-info:hover {
+    text-decoration: underline;
+}
+
+.post a {
+    border-radius: 30px;
+    padding: 0.2rem;
+}
+
+.post :nth-child(4):hover,
+.post :nth-child(5):hover {
+    background-color:  rgba(29, 155, 240, 0.1);
+    color: rgba(29, 155, 240, 1);
+}
+
+.post :nth-child(6):hover {
+    background-color: rgba(0, 186, 124, 0.1);
+    color: rgba(0, 186, 124, 1);
+}
+
+.post :nth-child(7):hover {
+    background-color:   rgba(249, 24, 128, 0.1) ;
+    color: rgba(249, 24, 128, 1);
+}
