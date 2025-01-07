@@ -4,56 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil do Usuário</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <aside>
+    <aside class="sidebar">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Explore</a></li>
-            <li><a href="#">Notifications</a></li>
-            <li><a href="#">Messages</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">More</a></li>
+            <li class="option"><a href="#">Home</a></li>
+            <li class="option"><a href="#">Explore</a></li>
+            <li class="option"><a href="#">Notifications</a></li>
+            <li class="option"><a href="#">Messages</a></li>
+            <li class="option"><a href="#">Profile</a></li>
+            <li class="option"><a href="#">More</a></li>
         </ul>
     </aside>
-    <img src="./assets/profile_picture.png" alt="Foto do usuário" width="64" height="64">
-    <h4>Marcus Nogueira</h4>
-    <h5>@marcusnogueira</h5>
-
-    <button>Edit Profile</button>
-        
-    <ul>
-        <li><a href="#">Sydney</a></li>
-        <li><a href="#">Joined November 2021</a></li>
-    </ul>
+    <div>
+        <img class="profile-picture" src="./assets/profile_picture.png" alt="Foto do usuário" width="64" height="64">
+        <button>Edit Profile</button>
+    </div>
+    <div>
+        <h4 class="profile-name">Marcus Nogueira</h4>
+        <h5 class="profile-username">@marcusnogueira</h5>
+        <p class="profile-description">Software Enginner. Building microservices using Java and Springboot.</p>
+    </div>
+    <div class="user-data">
+        <ul>
+            <li><a href="#" class="user-data-info">Sydney</a></li>
+            <li><a href="#" class="user-data-info">Joined November 2021</a></li>
+        </ul>
+    <div>
     
-    <ul>
-        <li><a href="#">405 Following</a></li>
-        <li><a href="#">10876 Followers</a></li>
-    </ul>
+    <div class="statistics">
+        <ul>
+            <li><a href="#" class="statistics-info"><span class="statistics-number">405</span> Following</a></li>
+            <li><a href="#" class="statistics-info"><span class="statistics-number">10876</span> Followers</a></li>
+        </ul>
+    </div>
     
     <!-- Tzeeter Post -->
-    <section>
-        <h4>Marcus Nogueira</h4>
-        <h6>@marcusnogueira - Jan 6, 2024</h6>
+    <section class="post">
+        <div class="post-owner">
+            <h4 class="profile-name">Marcus Nogueira</h4>
+            <h6 class="profile-username">@marcusnogueira - Jan 6, 2024</h6>
+        </div>
         <p>I love music, beer and recursive functions</p>
-            <a href="#">Reply</a>
-            <a href="#">Retweet</a>
-            <a href="#">Like</a>
-            <a href="#">Share</a>
-        </ul>
+        <a href="#">Reply</a>
+        <a href="#">Retweet</a>
+        <a href="#">Like</a>
+        <a href="#">Share</a>
     </section>
 
     <!-- Tzeeter Post -->
-    <section>
-        <h4>Bruno Góis Mateus</h4>
-        <h6>@brunomateuss - Jun 1, 2011</h6>
+    <section class="post">
+        <div class="post-owner">
+            <h4 class="profile-name">Bruno Góis Mateus</h4> 
+            <h6 class="profile-username">@brunomateuss - <span class="post-date">Jun 1, 2011</span></h6>
+        </div>
         <p>something really bad is happening somewhere in the world .. gmail is off</p>
-            <a href="#">Reply</a>
-            <a href="#">Retweet</a>
-            <a href="#">Like</a>
-            <a href="#">Share</a>
-        </ul>
+        <a href="#">Reply</a>
+        <a href="#">Retweet</a>
+        <a href="#">Like</a>
+        <a href="#">Share</a>
     </section>
 </body>
 </html>
